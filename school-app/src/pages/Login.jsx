@@ -1,5 +1,5 @@
 import { useState } from "react";
-import {AuthContext} from "../context/AuthContext";
+
 export default function Login ( ) {
     const [name,setName] = useState("");
     const[role,setRole] = useState("Student");
