@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef ,React} from "react";
 
  function Student ({name}) {
     const inputRef = useRef();
