@@ -1,4 +1,5 @@
-import { useRef ,React} from "react";
+import { useRef } from "react";
+import * as React from 'react';
 
  function Student ({name}) {
     const inputRef = useRef();

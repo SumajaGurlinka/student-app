@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import * as React from 'react';
 export default function Login ( ) {
     const [name,setName] = useState("");
     const[role,setRole] = useState("Student");
